@@ -43,7 +43,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.gblsStarterPack',
-      version='0.0.1',
+      version='0.0.2',
       description=('A docassemble extension for progress bar, features, and GBLS styles.'),
       long_description='Include `gbls-setup.yml` in your `.yml` interview file.',
       long_description_content_type='text/markdown',
