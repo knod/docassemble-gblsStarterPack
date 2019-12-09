@@ -1,4 +1,6 @@
 from docassemble.base.util import set_progress, Individual, DAObject
+# Name of class and name of module need to be different to avoid
+# some kind of conflict
 
 class ProgressHandler:
   """
