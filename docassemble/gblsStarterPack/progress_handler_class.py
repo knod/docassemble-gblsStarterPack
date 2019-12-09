@@ -1,6 +1,6 @@
 from docassemble.base.util import set_progress, Individual, DAObject
 
-class ProgressTracker:
+class ProgressHandler:
   """
     Progress bar shinanigans class to reduce amount of
     variables... created? Changed? Directly in the flow block.
