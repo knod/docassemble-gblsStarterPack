@@ -16,5 +16,5 @@ default validation messages:
   multiple choice required: You have to pick one.
 ---
 modules:
-  - .ProgressTracker
+  - .progress_handler_class
 ---
