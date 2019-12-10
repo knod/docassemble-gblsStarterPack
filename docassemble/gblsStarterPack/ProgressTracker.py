@@ -37,3 +37,6 @@ class ProgressTracker:
     self.step_num += 1
     self.do_progress( self.step_num )
     return self.step_num
+
+  def get_step_number ( self ):
+    return self.step_num
